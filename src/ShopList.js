@@ -24,7 +24,7 @@ function ShopList(){
         <div className="App container">
             <NavBar></NavBar>
             <ItemList items={items} removeItem={removeItem}/>
-            <ActionButtons />
+            <ActionButtons/>
         </div>
     );
 
